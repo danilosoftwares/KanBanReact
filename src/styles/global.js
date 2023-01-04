@@ -16,7 +16,7 @@ export default createGlobalStyle`
 
   body {
     font: 14px 'Roboto', sans-serif;
-    background-image: url("/background/pexels-gradienta.jpeg");
+    background-image: url("/KanBanReact/background/pexels-gradienta.jpeg");
     background-size: 100%;
     color: #333;
     -webkit-font-smoothing: antialiased !important;
