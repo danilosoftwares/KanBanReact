@@ -1,7 +1,7 @@
 {
   "name": "kanban-react",
   "version": "0.1.0",
-  "homepage": "github-page/",
+  "homepage": "KanBanReact/",
   "private": true,
   "dependencies": {
     "axios": "^0.25.0",
