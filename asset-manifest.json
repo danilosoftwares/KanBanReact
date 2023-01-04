@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.js": "KanBanReact/static/js/main.f4f37f00.chunk.js",
-    "main.js.map": "KanBanReact/static/js/main.f4f37f00.chunk.js.map",
-    "runtime~main.js": "KanBanReact/static/js/runtime~main.a41f5dc4.js",
-    "runtime~main.js.map": "KanBanReact/static/js/runtime~main.a41f5dc4.js.map",
-    "static/js/2.f119dad2.chunk.js": "KanBanReact/static/js/2.f119dad2.chunk.js",
-    "static/js/2.f119dad2.chunk.js.map": "KanBanReact/static/js/2.f119dad2.chunk.js.map",
-    "index.html": "KanBanReact/index.html",
-    "precache-manifest.e2edd235ed5dce2b35f43978e8ad8e0f.js": "KanBanReact/precache-manifest.e2edd235ed5dce2b35f43978e8ad8e0f.js",
-    "service-worker.js": "KanBanReact/service-worker.js",
-    "static/media/card_move.png": "KanBanReact/static/media/card_move.ca287e4b.png",
-    "static/media/column_add.png": "KanBanReact/static/media/column_add.9efc2615.png",
-    "static/media/menu_show.png": "KanBanReact/static/media/menu_show.cb9ced44.png"
+    "main.js": "/KanBanReact/static/js/main.f4f37f00.chunk.js",
+    "main.js.map": "/KanBanReact/static/js/main.f4f37f00.chunk.js.map",
+    "runtime~main.js": "/KanBanReact/static/js/runtime~main.a0013828.js",
+    "runtime~main.js.map": "/KanBanReact/static/js/runtime~main.a0013828.js.map",
+    "static/js/2.3593c060.chunk.js": "/KanBanReact/static/js/2.3593c060.chunk.js",
+    "static/js/2.3593c060.chunk.js.map": "/KanBanReact/static/js/2.3593c060.chunk.js.map",
+    "index.html": "/KanBanReact/index.html",
+    "precache-manifest.bc30c13155bed297ae46158b51a9cdfe.js": "/KanBanReact/precache-manifest.bc30c13155bed297ae46158b51a9cdfe.js",
+    "service-worker.js": "/KanBanReact/service-worker.js",
+    "static/media/card_move.png": "/KanBanReact/static/media/card_move.ca287e4b.png",
+    "static/media/column_add.png": "/KanBanReact/static/media/column_add.9efc2615.png",
+    "static/media/menu_show.png": "/KanBanReact/static/media/menu_show.cb9ced44.png"
   }
 }
