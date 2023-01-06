@@ -25,8 +25,12 @@ function App() {
   }
 
   const start = () => {
-    const id = window.location.pathname.replace("/","");
-    if (id){
+    let id = "";
+    const params = window.location.pathname.split("/"); 
+    if (params.length > 1){
+      id = params[params.length-1];
+    }
+    if (id && id.toString().toLowerCase() !== "kanbanreact"){
       setIdBoard(id);
       if (sessionStorage.getItem("started") === "1"){
         clickMenu("info");
