@@ -85,7 +85,7 @@ function App() {
       } else if (showModal.type === "board-start") {
         ret = service.postBoard({password:params.params.value});    
         sessionStorage.setItem("started","1");
-        window.location.href = window.location.origin+"/"+ret.data.result.id;
+        window.location.href = window.location.href+ret.data.result.id;
       } else if (showModal.type === "board-info") {        
         sessionStorage.removeItem("started");
       } else if (showModal.type === "board-delete"){
