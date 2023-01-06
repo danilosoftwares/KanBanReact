@@ -11,9 +11,9 @@ export default function Menu({click}) {
     <Buttons>
     <MdShare size={36} color="#FFF" onClick={(e) => click("share")}/>
     </Buttons>
-    <Buttons>
+    {/* <Buttons>
     <MdDelete size={36} color="#FFF" onClick={(e) => click("delete")}/>
-    </Buttons>
+    </Buttons> */}
   </Container>
   )
 }

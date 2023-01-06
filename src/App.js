@@ -14,7 +14,7 @@ import GroupModal from './components/GroupModal';
 
 function App() {
   const [lists, setLists] = useState([]);
-  const [idBoard, setIdBoard] = useState("");
+  const [idBoard, setIdBoard] = useState("novo");
   const [showModal, setShowModal] = useState({open:false,text:'',type:'',params:{}});
 
   const getList = async (idBoard) => {
@@ -25,21 +25,13 @@ function App() {
   }
 
   const start = () => {
-    let id = "";
-    const params = window.location.pathname.split("/"); 
-    if (params.length > 1){
-      id = params[params.length-1];
+    service.postBoard({password:"novo"});    
+    sessionStorage.setItem("started","1");
+    setIdBoard("novo");
+    if (sessionStorage.getItem("started") === "1"){
+      clickMenu("info");
     }
-    if (id && id.toString().toLowerCase() !== "kanbanreact"){
-      setIdBoard(id);
-      if (sessionStorage.getItem("started") === "1"){
-        clickMenu("info");
-      }
-    } else {
-      setShowModal({open:true,text:'Seja Bem Vindo!',type:'board-start',params:{
-        continue:'Vamos iniciar a criação de um novo Board com uma palavra chave que será autorização para uma exclusão futura, caso seja necessário.'
-      }});
-    }
+  
   }
 
   const ShowQuestion = (object) => {
@@ -85,7 +77,7 @@ function App() {
       } else if (showModal.type === "board-start") {
         ret = service.postBoard({password:params.params.value});    
         sessionStorage.setItem("started","1");
-        window.location.href = window.location.href+ret.data.result.id;
+        //window.location.href = window.location.href+ret.data.result.id;
       } else if (showModal.type === "board-info") {        
         sessionStorage.removeItem("started");
       } else if (showModal.type === "board-delete"){

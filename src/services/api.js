@@ -10,7 +10,7 @@ export default class Service {
   }
   static getBoard = async (id) => {
     let all = JSON.parse(localStorage.getItem('board'));
-    const list = all && all.length > 0 ? all.filter((item)=>item.id===id) : [];
+    const list = all && all.length > 0 ? all.filter((item)=>item.password===id) : [];
     return {data:{result:{columns:list[0].columns}}};
   }
   static deleteBoard = async (id, payload) => {
