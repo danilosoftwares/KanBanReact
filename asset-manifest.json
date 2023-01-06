@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/KanBanReact/static/js/main.94600eef.chunk.js",
-    "main.js.map": "/KanBanReact/static/js/main.94600eef.chunk.js.map",
+    "main.js": "/KanBanReact/static/js/main.235d8a33.chunk.js",
+    "main.js.map": "/KanBanReact/static/js/main.235d8a33.chunk.js.map",
     "runtime~main.js": "/KanBanReact/static/js/runtime~main.a0013828.js",
     "runtime~main.js.map": "/KanBanReact/static/js/runtime~main.a0013828.js.map",
-    "static/js/2.3593c060.chunk.js": "/KanBanReact/static/js/2.3593c060.chunk.js",
-    "static/js/2.3593c060.chunk.js.map": "/KanBanReact/static/js/2.3593c060.chunk.js.map",
+    "static/js/2.e842759b.chunk.js": "/KanBanReact/static/js/2.e842759b.chunk.js",
+    "static/js/2.e842759b.chunk.js.map": "/KanBanReact/static/js/2.e842759b.chunk.js.map",
     "index.html": "/KanBanReact/index.html",
-    "precache-manifest.8075d1ef58eee9cf27de4e7631d1ed2f.js": "/KanBanReact/precache-manifest.8075d1ef58eee9cf27de4e7631d1ed2f.js",
+    "precache-manifest.cec3c8d591b447f81de83891ffbf62ba.js": "/KanBanReact/precache-manifest.cec3c8d591b447f81de83891ffbf62ba.js",
     "service-worker.js": "/KanBanReact/service-worker.js",
     "static/media/card_move.png": "/KanBanReact/static/media/card_move.ca287e4b.png",
     "static/media/column_add.png": "/KanBanReact/static/media/column_add.9efc2615.png",

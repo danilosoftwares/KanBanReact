@@ -1,15 +1,15 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "31b1479049f14e3d1f7d7c27287ad3b7",
+    "revision": "ba736a3d3dde3a1bd192193daf3aad0d",
     "url": "/KanBanReact/index.html"
   },
   {
-    "revision": "1909f52f5b6fec7290ba",
-    "url": "/KanBanReact/static/js/2.3593c060.chunk.js"
+    "revision": "078a0aed1c5032af782c",
+    "url": "/KanBanReact/static/js/2.e842759b.chunk.js"
   },
   {
-    "revision": "c668aa721c217f6a67f2",
-    "url": "/KanBanReact/static/js/main.94600eef.chunk.js"
+    "revision": "fd36f820c13aefa8e1f9",
+    "url": "/KanBanReact/static/js/main.235d8a33.chunk.js"
   },
   {
     "revision": "02c100a1c097f94be16b",
