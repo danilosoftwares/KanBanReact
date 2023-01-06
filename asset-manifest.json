@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/KanBanReact/static/js/main.700aa475.chunk.js",
-    "main.js.map": "/KanBanReact/static/js/main.700aa475.chunk.js.map",
+    "main.js": "/KanBanReact/static/js/main.f9e12009.chunk.js",
+    "main.js.map": "/KanBanReact/static/js/main.f9e12009.chunk.js.map",
     "runtime~main.js": "/KanBanReact/static/js/runtime~main.a0013828.js",
     "runtime~main.js.map": "/KanBanReact/static/js/runtime~main.a0013828.js.map",
     "static/js/2.3593c060.chunk.js": "/KanBanReact/static/js/2.3593c060.chunk.js",
     "static/js/2.3593c060.chunk.js.map": "/KanBanReact/static/js/2.3593c060.chunk.js.map",
     "index.html": "/KanBanReact/index.html",
-    "precache-manifest.b34ac57f8304f91a57dc63f6d2702a36.js": "/KanBanReact/precache-manifest.b34ac57f8304f91a57dc63f6d2702a36.js",
+    "precache-manifest.a7935fdd5f9f59d56d3f6785a76f0a27.js": "/KanBanReact/precache-manifest.a7935fdd5f9f59d56d3f6785a76f0a27.js",
     "service-worker.js": "/KanBanReact/service-worker.js",
     "static/media/card_move.png": "/KanBanReact/static/media/card_move.ca287e4b.png",
     "static/media/column_add.png": "/KanBanReact/static/media/column_add.9efc2615.png",
